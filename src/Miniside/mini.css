@@ -1,0 +1,281 @@
+.tap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.tap1{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.tap button{
+    background: #D3E5FE;
+border-radius: 40px;
+color: #1236AA;
+padding: 3px 22px;
+ 
+}
+.sim1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #8C93A3;;
+}
+.sim2{
+    text-align: initial;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.link{
+    display: flex;
+    align-items: flex-start;
+ flex-direction: column;
+ margin: -10px 0px ;
+ line-height: 160%;
+}
+.mail{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.mail h5{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-top: -10px;
+color: #598CF4;
+}
+.mail h4{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #8C93A3;
+
+}
+   .twitter{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+         
+   }
+   .twitter h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .twitter h5{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .insta{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+          
+   }
+   .insta h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .insta h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .dribble{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+          
+   }
+   .dribble h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .dribble h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .behance{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+   }
+   .behance h4{
+   
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .behance h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .btn{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-left: 25%;
+   }
+   .btn hq{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background: #5FC92E;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    padding: 8px 16px; 
+   width: 344px;
+   height: 52px;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+cursor: pointer;
+   color: #FFFFFF;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+
+   }
+   .btn hp{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+width: 344px;
+height: 52px;
+background: #E2E4E8;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+border-radius: 3px;
+flex: none;
+order: 0;
+flex-grow: 0;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #000000;
+cursor: pointer;
+   }
+.sim20{
+    background-color: #5FC92E;
+}
+.data{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
+}
+
+.scrool-1{
+    width: 100%;
+    background-color: #DBDBDB;;
+    height:400px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+.buc{
+    border-top: 6px solid  #DBDBDB;;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.top1{
+  font-family: monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.top button{
+    background: #D3E5FE;
+border-radius: 40px;
+color: #1236AA;
+padding: 3px 22px;
+
+}
+.simple1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #8C93A3;;
+}
+.simple2{
+   text-align: initial;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.date{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+  font-family: monospace;
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}

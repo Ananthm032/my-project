@@ -1,0 +1,230 @@
+.tep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.tep1{
+    font-family: monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.tep button{
+    background: #EBFCD5;
+border-radius: 40px;
+color: #0D6008;
+padding: 3px 22px;
+
+}
+.sample1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #8C93A3;;
+}
+.sample2{
+   text-align: initial;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.Nama{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
+}
+.scrall{
+     width: 100%;
+background-color: #DBDBDB;;
+height:400px;
+overflow: hidden;
+overflow-y: scroll;
+
+}
+.buc2{
+
+border-top: 6px solid #DBDBDB;;
+    
+}
+.taa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.taa1{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.taa button{
+    background: #EBFCD5;
+border-radius: 40px;
+color: #0D6008;
+padding: 3px 22px;
+ 
+}
+.sima1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #8C93A3;;
+}
+.sima2{
+    text-align: initial;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.linka{
+    display: flex;
+    align-items: flex-start;
+ flex-direction: column;
+ margin: -10px 0px ;
+ line-height: 160%;
+}
+.maila{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.maila h5{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-top: -10px;
+color: #598CF4;
+}
+.maila h4{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #8C93A3;
+
+}
+   .twittera{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+         
+   }
+   .twittera h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .twittera h5{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .instaa{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+          
+   }
+   .instaa h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .instaa h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .dribblea{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+          
+   }
+   .dribblea h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .dribblea h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .behancea{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+   }
+   .behancea h4{
+   
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .behancea h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .Name{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
+   }

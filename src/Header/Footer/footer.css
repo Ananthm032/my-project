@@ -1,0 +1,241 @@
+.tope{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.tope1{
+    font-family: monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.tope button{
+    background: #FFE3D6;
+border-radius: 40px;
+color: #7A0933;
+padding: 3px 22px;
+
+}
+.simplee1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #8C93A3;;
+}
+.simplee2{
+   text-align: initial;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.dete{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
+}
+.scrool{
+    width: 100%;
+    background-color: #DBDBDB;;
+    height:400px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+.buc1{
+    border-top: 6px solid #DBDBDB;
+}
+.tape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.tape1{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.tape button{
+    background: #FFE3D6;
+border-radius: 40px;
+color: #7A0933;
+padding: 3px 22px;
+ 
+}
+.sime1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #8C93A3;;
+}
+.sime2{
+    text-align: initial;
+   font-family: 'Satoshi';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.linke{
+    display: flex;
+    align-items: flex-start;
+ flex-direction: column;
+ margin: -10px 0px;
+ line-height: 160%;
+}
+.maile{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.maile h5{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+color: #598CF4;
+}
+.maile h4{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #8C93A3;
+margin: 20px 0px;
+left: auto;
+}
+   .twittere{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+         
+   }
+   .twittere h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+    
+   }
+   .twittere h5{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .instae{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+          
+   }
+   .instae h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .instae h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .dribblee{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+          
+   }
+   .dribblee h4{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .dribblee h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .behancee{
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+       justify-content: flex-start;
+   }
+   .behancee h4{
+   
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8C93A3;
+   }
+   .behancee h5{
+    display: flex;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    margin-top: -10px;
+    color: #598CF4;
+   }
+   .Nam{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   font-style: normal;
+font-weight: 500;
+font-size: 20px;
+font-family: monospace;
+   }
+   .scrool-con{
+    background-color: #DBDBDB;;
+    width:100%;
+ }
+ .scrool-con1{
+     width: 100%;
+     background-color: #DBDBDB;;
+     height:500px;
+     overflow: hidden;
+     overflow-y: scroll;
+    
+ }
