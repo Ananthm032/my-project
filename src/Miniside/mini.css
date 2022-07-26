@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:10px
+    gap:10px;
+  
 }
 .tap1{
     font-family: monospace;
@@ -225,13 +226,14 @@ font-family: monospace;
 .scrool-1{
     width: 100%;
     background-color: #DBDBDB;;
-    height:400px;
+     height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
    
 }
 .buc{
-    border-top: 6px solid  #DBDBDB;;
+  
+    border-bottom:  6px solid  #DBDBDB;
 }
 .top{
     display: flex;

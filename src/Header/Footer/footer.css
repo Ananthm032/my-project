@@ -227,14 +227,14 @@ font-weight: 500;
 font-size: 20px;
 font-family: monospace;
    }
-   .scrool-con{
+   .scrool{
     background-color: #DBDBDB;;
     width:100%;
  }
- .scrool-con1{
+ .scrool{
      width: 100%;
-     background-color: #DBDBDB;;
-     height:500px;
+     background-color: #DBDBDB;
+     height:100%;
      overflow: hidden;
      overflow-y: scroll;
     

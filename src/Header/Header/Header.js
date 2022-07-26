@@ -1,5 +1,5 @@
 import './header.css';
-import Img from "../../Images/Artboard 35.png"
+import Img from "../../Images/Artboard 35 - Copy.png"
 import Img2 from "../../Images/147144.png"
 import ArticleIcon from '@mui/icons-material/Article';
 import {Box}from "@mui/material"

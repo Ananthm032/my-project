@@ -1,4 +1,4 @@
-import * as React from 'react';
+import  React,{useEffect,useState} from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -7,18 +7,35 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Button,Box } from '@mui/material';
 import Note from "../Note/Note"
 import "./mini.css"
-export default function ControlledAccordions() {
+
+export default function ControlledAccordions(name,username) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
 
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+   
+    (async () => {
+      const res = await fetch('https://jsonplaceholder.typicode.com/users');
+      console.log(res);
+
+      const data = await res.json();
+     
+      setData(data.splice(0, 10));
+    })();
+  }, []);
+
+  
   return (
   
     <div className='scrool-1'>
-     
-    <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        {data.map(item=> (
+     <div  key={item.id.value}>
+    <Accordion className='row1' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
     <AccordionSummary
          expandIcon={<ExpandMoreIcon />}
          aria-controls="panel1bh-content"
@@ -27,21 +44,22 @@ export default function ControlledAccordions() {
        >
           
          <Box className='top'>
-           <Box className='top1'>
-         
-         <Api/>
         
+           <Box className='top1'  >
+       
+          {item.name}
          </Box>
-         
+     
+       
            <Button>Pending</Button>
          </Box>
         
-        
+       
          <Box className='date'>
-           June21,2022
+           {item.username}
           </Box>
-     
- 
+          
+         
        </AccordionSummary>
      
        <AccordionDetails>
@@ -60,7 +78,7 @@ export default function ControlledAccordions() {
     
    
        <Box className='buc'>
-       <Accordion>
+       <Accordion className='row'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -70,7 +88,7 @@ export default function ControlledAccordions() {
       
           <Box className='tap'>
             <Box className='tap1' >
-            <Api/>
+           {item.address.city}
           </Box>
           <Box>
             <Button>Pending</Button>
@@ -79,13 +97,14 @@ export default function ControlledAccordions() {
          
       
           <Box className='data'>
-            June21,2022
+           {item.address.suite}
            </Box>
       
   
         </AccordionSummary>
         
         <AccordionDetails>
+         
 <Box className='sim'>
 <Box className='sim1'> ABOUT</Box>
 <Box className='sim2'> 
@@ -93,36 +112,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molesti
 
 </Box>
    </Box>
-   
+  
  <Box className='link'> 
  <Box className='mail'>
- <h4>EMAIL ADDRESS</h4>
-  <h5>creaters@mail.com</h5>
-   </Box>
-   <Box className='twitter'>
-   <h4>TWITTER HANDLE</h4>
-   <h5 >https://twitter.com/elonmusk</h5>
-   </Box>
-   <Box className='insta'>
-   <h4>INSTAGRAM HANDLE</h4>
-   <h5 >
-https://www.instagram.com/kalsdkmfklasmdklfmklsadmfklmlaksfmklmsdklfmksdmlf
-</h5>
-</Box>
-<Box className='dribble'>
-   <h4>DRIBBBLE HANDLE</h4>
-   <h5 >https://dribbble.com/shots/18551776-Damascus-Techwear-Apparel-2022-web-redesign-concept</h5>
-   </Box>
-   <Box className='behance'>
-   <h4>BEHANCE HANDLE</h4>
-   <h5 >https://www.behance.net/gallery/119045577/DE_FORM?tracking_source=for_you_feed_featured_category</h5>
-   </Box>
-   </Box>
+ 
+ </Box>
+ </Box>
+ 
   <Note/>
+ 
          </AccordionDetails>
      
      </Accordion>
-     </Box>
+     </Box> 
+  
+     </div>
+        ))}
      </div>
     
        

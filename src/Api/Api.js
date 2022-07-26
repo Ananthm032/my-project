@@ -7,21 +7,22 @@ export const Api = () => {
   useEffect(() => {
    
     (async () => {
-      const res = await fetch('https://jsonplaceholder.typicode.com/users');
+      const res = await fetch('https://jsonplaceholder.typicode.com/posts');
       console.log(res);
 
       const data = await res.json();
      
-      setData(data.splice(0, 1));
+      setData(data.splice(0, 10));
     })();
   }, []);
 
+  
 
   return (
     <div>
     
         {data.map((item) => {
-          return<p key={item.id}>{item.name}</p> 
+          return<p key={item.id}>{item.body}</p> 
         })}
     
     </div>

@@ -1,6 +1,6 @@
 
 import './topbar.css';
-import Img from "../Images/Artboard 35.png"
+import Img from "../Images/Artboard 35 - Copy.png"
 import Img2 from "../Images/147144.png"
 import ArticleIcon from '@mui/icons-material/Article';
 import {Box}from "@mui/material"
@@ -37,12 +37,13 @@ function Topbar() {
 
     
     <section class="content">
+     
      <Box className='mini'>
        <Link to='/' style={{textDecoration:'none',width:'100%'}}> <Box className='mini1'> <p> For Review</p></Box></Link>
        <Link to='/verified' style={{textDecoration:'none',width:'100%'}}><Box className='mini2'>  <p> Verified</p></Box></Link>
       <Link to='/rejected' style={{textDecoration:'none',width:'100%'}}>  <Box className='mini3'> <p> Rejected</p></Box></Link>
      </Box>
-    
+   
     <Box>
    <Box className='bar'>
       <Mini/>

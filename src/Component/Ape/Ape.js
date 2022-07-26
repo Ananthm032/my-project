@@ -26,7 +26,7 @@ export default function ControlledAccordions() {
           <Box className='tep'>
             <Box className='tep1'>
           
-         <Api/>
+            CreateName
          
           </Box>
           <Box>
@@ -63,7 +63,7 @@ export default function ControlledAccordions() {
       
           <Box className='taa'>
             <Box className='taa1'>
-        <Api/>
+            CreateName
           </Box>
           <Box>
             <Button>Accepted</Button>
